@@ -1,0 +1,44 @@
+@import url("./reset.css");
+
+
+
+
+
+#pageHeader{
+    background-color: green;
+    height: 100px;
+    width: 100%;
+}
+
+
+nav{
+    background-color: pink;
+    height: 40px;
+}
+
+.navContainer{
+
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+
+@media screen(min ) {
+
+    .navContainer{
+
+        background-color: pink;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+
+}
+
+.navItem{
+
+}
